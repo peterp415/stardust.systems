@@ -7,6 +7,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 [MacOS]({{ site.baseurl }}{% link macos.html %})
 
+[MacOS](macos.html)
+
 
 ### Markdown
 
