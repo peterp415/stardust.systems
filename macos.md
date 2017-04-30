@@ -1,3 +1,7 @@
+---
+title: MacOS
+---
+
 Add to your `.profile`:
 
     # For a dark iTerm background, using Dark Pastels
