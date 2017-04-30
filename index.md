@@ -10,9 +10,9 @@ website using
 [Markdown](https://daringfireball.net/projects/markdown/) and
 [git](https://git-scm.com).
 
-- [Overview](pages/overview.html)
+Check out a basic example of how this works [here](https://github.com/kbroman/simple_site)
 
-Pages:
+Pages Here:
 {% for page in site.pages %}
 - [{{ page.title }}]({{ page.url}})
 {% endfor %}
