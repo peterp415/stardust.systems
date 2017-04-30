@@ -11,3 +11,8 @@ website using
 [git](https://git-scm.com).
 
 - [Overview](pages/overview.html)
+
+Pages:
+{% for page in site.pages %}
+- [{{ page.title }}]({{ page.url}})
+{% endfor %}
