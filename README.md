@@ -5,6 +5,10 @@ You can use the [editor on GitHub](https://github.com/peterp415/stardust.systems
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+## Notes on this site
+
+The original style is "Hacker", source is at https://github.com/pages-themes/hacker
+
 [MacOS]({{ site.baseurl }}{% link macos.html %})
 
 [MacOS](macos.html)
