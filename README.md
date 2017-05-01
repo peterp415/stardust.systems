@@ -9,6 +9,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 The original style is "Hacker", source is at https://github.com/pages-themes/hacker
 
+Another simple way to go would be to clone the simple site at https://github.com/kbroman/simple_site
+
 [MacOS]({{ site.baseurl }}{% link macos.html %})
 
 [MacOS](macos.html)
