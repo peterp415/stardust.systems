@@ -11,6 +11,10 @@ The original style is "Hacker", source is at https://github.com/pages-themes/hac
 
 Another simple way to go would be to clone the simple site at https://github.com/kbroman/simple_site
 
+[Getting started with Jekyll](https://learn.cloudcannon.com/)
+[Jekyll Cheat Sheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/)
+
+
 [MacOS]({{ site.baseurl }}{% link macos.html %})
 
 [MacOS](macos.html)
