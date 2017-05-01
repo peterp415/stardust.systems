@@ -12,5 +12,5 @@ website using
 Pages Here:
 
 {% for page in site.html_pages %}
-- [{{ page.title }}]({{ page.url}})
+- [{{ page.title }}]({{ page.url | relative_url }})
 {% endfor %}
