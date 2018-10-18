@@ -2,6 +2,7 @@
 layout: default
 title: stardust.systems Home
 description: stardust.systems Home Page
+skipIndex: true
 ---
 
 [Github Pages](https://pages.github.com) provide a simple way to make a
@@ -11,6 +12,6 @@ website using
 
 Pages Here:
 
-{% for page in site.html_pages %}
+{% for page in site.html_pages %}{% if page.skipIndex %}{% continue %}{ endif %}
 - [{{ page.title }}]({{ page.url | relative_url }})
 {% endfor %}
