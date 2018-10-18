@@ -12,6 +12,6 @@ website using
 
 Pages Here:
 
-{% for page in site.html_pages %}{% if page.skipIndex %}{% continue %}{ endif %}
+{% for page in site.pages %}{% if page.skipIndex %}{% continue %}{ endif %}
 - [{{ page.title }}]({{ page.url | relative_url }})
 {% endfor %}
