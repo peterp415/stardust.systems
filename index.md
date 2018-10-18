@@ -10,7 +10,7 @@ website using
 [Markdown](https://daringfireball.net/projects/markdown/) and
 [git](https://git-scm.com).
 
-Pages Here:
+Pages List:
 
 {% for page in site.pages %}{% if page.skipIndex %}{% continue %}{ endif %}
 - [{{ page.title }}]({{ page.url | relative_url }})
